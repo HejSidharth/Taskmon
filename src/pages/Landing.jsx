@@ -42,7 +42,7 @@ export default function Landing() {
               </p>
               <Link to="/task" onClick={() => toast.success("Welcome!")}>
                 <button className="btn py-3 px-8 rounded-lg ">
-                  Get Started 🚀
+                  Get Started! 🚀
                 </button>
               </Link>
             </div>

@@ -39,7 +39,7 @@ export function IdeasProvider(props) {
     setIdeas((ideas) => ideas.filter((idea) => idea.$id !== id));
     await init();
   }
-   async function init(userIdd) {
+   async function init() {
     const response = await databases.listDocuments(
       IDEAS_DATABASE_ID,
       IDEAS_COLLECTION_ID,

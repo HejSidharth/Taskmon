@@ -7,6 +7,8 @@ import { useIdeas } from "../lib/context/ideas";
 import { RedirectToSignIn, SignedIn, SignedOut, useUser as u } from "@clerk/clerk-react";
 import toast from "react-hot-toast";
 
+
+
 export default function Table() {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [currentTime, setCurrentTime] = useState("");

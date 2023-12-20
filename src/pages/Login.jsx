@@ -3,13 +3,7 @@ import { useUser as useee } from "../lib/context/user";
 import { SignInButton, SignUpButton, useUser } from "@clerk/clerk-react";
 
 export function Login() {
-  const user = useee();
-  const user2 = useUser()
-  const userId = user2?.user?.id;
-
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
+  
   return (
       <section className="">
       <SignInButton />

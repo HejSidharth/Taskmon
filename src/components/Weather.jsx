@@ -55,7 +55,7 @@ export default function Weather() {
           </span>
         </div>
       ) : (
-        <span className="loading loading-dots loading-md"></span>
+        <div></div>
       )}
     </div>
   );
